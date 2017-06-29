@@ -1,0 +1,20 @@
+<div class="scrollable">
+    <div class="scrollable-content">
+        <div class="section section">
+            <div class="section section-break form">
+                <form ng-submit="submit()" ng-controller="controller">
+                    <label>Titulo:<input ng-model="concierto.titulo" type="text" name="titulo" placeholder="titulo" required/></label>
+                    <label>Banda:<input ng-model="concierto.banda" type="text" name="banda" placeholder="banda" required/></label>
+                    <label>Lugar:<input ng-model="concierto.lugar" type="text" name="lugar" placeholder="lugar" required/></label>
+                    <label>Fecha:<input ng-model="concierto.fecha" type="date" name="fecha" required/></label>
+                    <label>Tipo:<select ng-model="concierto.tipo" name="tipo" required>
+                        <option value="Concierto">Concierto</option>
+                        <option value="Festival">Festival</option>
+                    </select></label>
+                    <label>Descripcion:<textarea name="descripcion" ng-model="concierto.descripcion" cols="10" rows="3" ng-minlength="25" required placeholder="descripcion del evento..."></textarea></label>
+                    <input type="submit" value="agregar" class="btn btn-primary btn-block"/>
+                </form>
+            </div>
+        </div>
+    </div>
+ </div>

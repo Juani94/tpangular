@@ -1,0 +1,21 @@
+<div class="scrollable">
+    <div class="scrollable-content">
+        <div class="section section" ng-controller="controller">
+            <div class="section section-break">
+                <a href="#add" class="btn add-buttom btn-primary btn-block">Agregar Concierto</a>
+                <div ng-repeat="concierto in conciertos" class="concierto">
+                    <img src="img/{{concierto.foto}}.jpg" alt="{{concierto.foto}}"/>
+                    <div class="caracteristicas">
+                        <div class="titulo"><span>Titulo:</span>{{concierto.titulo}}</div>
+                        <div class="banda"><span>Banda:</span>{{concierto.banda}}</div>
+                        <div class="tipo"><span>Tipo:</span>{{concierto.tipo}}</div>
+                        <div class="lugar"><span>Lugar:</span>{{concierto.lugar}}</div>
+                        <div class="fecha"><span>Fecha:</span>{{concierto.fecha}}</div>
+                        <div class="descripcion"><span>Descripcion</span>{{concierto.descripcion}}</div>
+                    </div>
+                    <a href="javascript:void(0);" class="btn btn-default borrar" ng-click="eliminar($index)">Borrar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

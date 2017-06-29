@@ -1,0 +1,18 @@
+<div class="scrollable">
+	<div class="scrollable-content">
+		<div class="section section" ng-controller="controller">
+			<div class="section section-break info">
+				<h1 class="title">Informacion del trabajo</h1>
+				<p><span>TP 2 - ADM</span></p>
+				<p><span>Alumno:</span>Lanzara, Juan</p>
+				<p><span>Profesora:</span>Garcia, Mabel</p>
+				<p><span>Comision:</span>DW3ATM</p>
+
+				<a href="javascript:void(0);" class="btn btn-primary btn-block ver-desc" ui-turn-on="modalag">Descripción</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div ui-content-for="modals">
+	<div ng-include="'include/modal.html'"></div>
+</div>

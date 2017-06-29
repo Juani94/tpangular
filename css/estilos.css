@@ -1,0 +1,112 @@
+body{
+	background-color: #2E2B2A;
+}
+.caracteristicas{
+	margin-bottom: 60px;
+}
+.navbar{
+	color:black;
+}
+.botones{
+	color: #913D21;
+}
+.add-buttom{
+	margin-bottom: 20px;
+}
+.examen:nth-child(even){
+	background: #c3c3c3;
+	position: relative;
+}
+.concierto:nth-child(odd){
+	background: #f9f9f9;
+	position: relative;
+}
+.concierto .caract{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 55%;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.concierto div span{
+	font-weight: bold;
+}
+.concierto img{
+	height: 35vw;
+	max-height: 25%;
+	margin-right: 5px;
+	vertical-align: top;
+}
+.concierto a.borrar{
+	text-indent: 1000px;
+	margin-top: -260px;
+	background: url("../img/borrar.png") center no-repeat;
+	width: 50px;
+	height: 80px;
+	float: right;
+}
+.concierto a.borrar:hover{
+	opacity: .5;
+}
+div.info *{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+div.info .title{
+	margin-top: 15px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-size: 20px;
+}
+div.info span{
+	margin-top: 15px;
+	font-weight: bold;
+}
+.form form{
+	width: 70vw;
+	margin: auto;
+}
+.form form *{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.form form label{
+	font-size: 1.3em;
+	margin: 10px 0;
+}
+
+.form form select,
+.form form input{
+	margin-top: 5px;
+	height: 35px;
+}
+.form form textarea{
+	resize: none;
+}
+.ver-desc{
+	margin-top: 30px;
+}
+.modal-dialog{
+	margin-top: 10vh;
+}
+#modal{
+	text-align: center;
+}
+#modal p{
+	text-align: left;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.section.section-break{
+	padding-bottom: 100px;
+}
+.modal-backdrop.in {
+   opacity: 1;
+    filter: none;
+}
+.modal-backdrop {
+    background-color: rgba(0,0,0,.5);
+}
