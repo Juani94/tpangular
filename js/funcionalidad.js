@@ -30,6 +30,6 @@ app.controller('controller', ($scope, $location) => {
 });
 
 app.controller('principal', function($scope, $http, $route) {
-    $http.get('data.json')
+    $http.get('data.php')
     .then(res => localStorage.setItem(stName, JSON.stringify(res.data)));
 });
