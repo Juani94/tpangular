@@ -15,7 +15,7 @@ $data = array(array(
 	"tipo"=>"Concierto",
 	"lugar"=>"Luna Park",
 	"fecha"=>"25/11/2017",
-	"descripcion"=>"askdfhkasdjfhk dsfkh asdklf askldklasdlfhklasdj"
+	"descripcion"=>"concierto de la gira de Tarja Turunen en buenos aires de su gira The Shadow Shows"
 ));
 print_r(json_encode($data));
 ?>
